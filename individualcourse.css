@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content:center;
+}
+
+img {
+  max-width: 100%;
+  max-height:100%;
+}
+
+
+.button {
+  padding: 15px 25px;
+  font-size: 17px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: whitesmoke;
+  background-color: midnightblue;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px lightgoldenrodyellow;
+}
+
+.button:hover {
+    background-color: maroon;
+    color: whitesmoke;
+}
+
+.button:active {
+  background-color: maroon;
+  color: whitesmoke;
+  box-shadow: 0 5px lightgoldenrodyellow;
+  transform: translateY(4px);
+}

@@ -1,0 +1,23 @@
+a.more{
+        display:contents;
+        padding:50px;
+        text-decoration: none;
+        color: royalblue;
+      }
+
+
+/* visited link */
+a.more:visited {
+  color: royalblue;
+}
+
+/* mouse over link */
+a.more:hover {
+  color: red;
+}
+
+/* selected link */
+a.more:active {
+  color: green;
+}
+
